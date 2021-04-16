@@ -6,3 +6,4 @@ libraries:
 - sklearn
 - numpy
 - pandas
+- torch
