@@ -1,7 +1,7 @@
 import os
 from subprocess import call
 from tqdm import tqdm
-dataset='trainingdata_c'
+dataset='trainingdata_a'
 directory = "../refined_scripts"
 for filename in tqdm(os.listdir(os.path.join(directory,dataset))):
     if  filename.endswith(".py"):

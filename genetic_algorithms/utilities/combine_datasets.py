@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd 
 import os
 
-dataset="trainingdata_c"
+dataset="trainingdata_a"
 directory='../synth_vote_dataset'
 path = os.path.join(directory,dataset)
 l_0=0

@@ -1,6 +1,6 @@
 import os
 os.chdir("../")
-dataset = 'trainingdata_c'
+dataset = 'trainingdata_a'
 directory = 'checkpoints/{}/'.format(dataset)
 data_path = 'data/{}'.format(dataset)
 refined_dataset_path = os.path.join("vote_dataset",dataset)
